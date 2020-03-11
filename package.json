@@ -1,0 +1,34 @@
+{
+  "name": "poc-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "webpack": "webpack -wd",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon --exec babel-node src/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.8.7",
+    "body-parser": "^1.19.0",
+    "compression": "^1.7.4",
+    "express": "^4.17.1",
+    "faker": "^4.1.0",
+    "liveoptics.component.library": "^1.0.138"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/node": "^7.8.7",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/plugin-transform-runtime": "^7.8.3",
+    "@babel/polyfill": "^7.8.7",
+    "@babel/preset-env": "^7.8.7",
+    "@babel/preset-react": "^7.8.3",
+    "babel-core": "^7.0.0-bridge.0",
+    "puppeteer": "^2.1.1",
+    "react": "^16.10.1",
+    "react-dom": "^16.10.1"
+  }
+}
