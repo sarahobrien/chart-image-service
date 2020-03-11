@@ -18,3 +18,4 @@ Note: There is a generateMockData.js file which will generate the mock data requ
 * Get the legend values from the data (hardcoded right now)
 * Clean up image after returned 
 * Update component library chart to convert timestamp to dates so conversion loop can be removed
+* Add Unit Tests
